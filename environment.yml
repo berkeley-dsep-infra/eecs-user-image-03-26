@@ -21,7 +21,7 @@ dependencies:
   - liblapack=3.9.0
   - armadillo==14.6.0
   - gperf==3.1
-  # CS 16A
+  # EECS 16A
   # From https://github.com/berkeley-dsep-infra/datahub/issues/1363#issuecomment-598916469
   - sympy==1.14.0
   - pyaudio==0.2.14
@@ -49,6 +49,6 @@ dependencies:
       - git+https://github.com/shaneknapp/python-popularity-contest.git@add-error-handling
       - git-credential-helpers==0.2
       # Marimo integration for EECS 16A
-      - marimo==0.14.16
-      - click==8.2.1
+      - marimo==0.23.4
+      - click==8.3.3
       - git+https://github.com/b-data/jupyter-marimo-proxy.git@jupyterlab-docker-stack
