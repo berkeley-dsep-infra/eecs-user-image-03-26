@@ -7,10 +7,10 @@ dependencies:
   - appmode=1.0.0
   # https://github.com/berkeley-dsep-infra/datahub/issues/2535
   # gcc, gdb, etc are newer in conda-forge than in apt, esp with Ubuntu focal
+  - gdb==17.2
   - c-compiler==1.8.0
   - cxx-compiler==1.8.0
   - fortran-compiler==1.8.0
-  - gdb==15.1
   - libopenblas=0.3.28
   - liblapack=3.9.0
   - armadillo==14.6.0
