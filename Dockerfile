@@ -44,5 +44,3 @@ WORKDIR /home/${NB_USER}
 EXPOSE 8888
 
 ENTRYPOINT ["tini", "--"]
-
-
